@@ -38,6 +38,12 @@ body {
     color: white;
 }
 
+.btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -45,7 +51,7 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: white;
+    color: white !important;
 }
 
 .text-black {
@@ -74,6 +80,8 @@ a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
+
+
 
 /* -------------------------------- Media Queries */
 
