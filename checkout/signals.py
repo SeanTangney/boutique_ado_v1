@@ -1,5 +1,5 @@
 from django.db.models.signals import post_save, post_delete
-from django.dispach import reciever
+from django.dispatch import reciever
 
 from .models import OrderLineItem
 
